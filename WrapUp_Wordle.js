@@ -18,9 +18,9 @@ function setup() {
   imageMode(CENTER);
   textAlign(CENTER);
 
-  loadStrings("Assignments/Words.txt", words => {
-    answer = random(words).split("");
-  });
+  // loadStrings("Assignments/Words.txt", words => {
+  //   answer = random(words).split("");
+  // });
 
   loadFont("Assignments/OpenSans-ExtraBold.ttf", font => {
     textFont(font);
