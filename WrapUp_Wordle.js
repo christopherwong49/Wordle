@@ -18,11 +18,11 @@ function setup() {
   imageMode(CENTER);
   textAlign(CENTER);
 
-  // loadStrings("Assignments/Words.txt", words => {
-  //   answer = random(words).split("");
-  // });
+  loadStrings("Words.txt", words => {
+    answer = random(words).split("");
+  });
 
-  loadFont("Assignments/OpenSans-ExtraBold.ttf", font => {
+  loadFont("OpenSans-ExtraBold.ttf", font => {
     textFont(font);
     textSize(40);
     fill("#000000");
